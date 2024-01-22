@@ -1,0 +1,5 @@
+{
+    "appName": "Test Load Josn file first load Base URL",
+    "version": "1.0.0",
+    "apiUrl": "https://api.example.com111"
+}
