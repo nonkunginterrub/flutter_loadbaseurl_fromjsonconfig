@@ -22,4 +22,14 @@ class AppConfig {
     appName = config['appName'];
     version = config['version'];
   }
+
+  // path api url
+  static const postLogin = "/PostLogin/";
+  static const postRegister = "/PostRegister/";
+  static const postReqNameList = "/DOE/ReqNameList/";
+  static const postEnq = "/ReqDB/";
+  static const postSCBQr = "/PostSCBQr/";
+  static const postSavePolicy = "/savepolicy";
+
+  static const postPrint = "/printpdf/";
 }

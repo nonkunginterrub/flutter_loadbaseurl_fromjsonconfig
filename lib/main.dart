@@ -6,7 +6,7 @@ Future<void> main() async {
 
   // Load config "assets/config.json"
   await AppConfig().loadConfig();
-  
+
   runApp(const MyApp());
 }
 
@@ -66,6 +66,10 @@ class _MyHomePageState extends State<MyHomePage> {
             Text('API Url: $apiUrl'),
             Text('App Name: $appName'),
             Text('Version: $version'),
+
+            // Example use apiurl
+            const Text('url postLogin: ${AppConfig.postLogin}'),
+            const Text('url postRegister: ${AppConfig.postRegister}'),
             const Text(
               'You have pushed the button this many times:',
             ),
